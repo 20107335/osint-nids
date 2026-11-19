@@ -1,0 +1,22 @@
+# Data & ML
+pandas
+numpy
+scikit-learn
+lightgbm
+shap
+joblib
+matplotlib
+
+# Notebooks
+jupyterlab
+
+# Enrichment / networking
+requests
+python-dotenv
+dnspython
+tldextract
+scapy
+
+# Database
+psycopg2-binary
+sqlalchemy

@@ -1,0 +1,36 @@
+# Secrets - never commit API keys
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data - too large / sensitive for Git (folders kept via .gitkeep)
+data/raw/*
+data/interim/*
+data/processed/*
+!data/*/.gitkeep
+
+# Packet captures anywhere in the repo
+*.pcap
+*.pcapng
+
+# Trained models
+models/*
+!models/.gitkeep
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+logs/
