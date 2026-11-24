@@ -18,5 +18,5 @@ tldextract
 scapy
 
 # Database
-psycopg2-binary
+psycopg[binary]
 sqlalchemy

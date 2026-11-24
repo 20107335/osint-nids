@@ -19,7 +19,7 @@ GREYNOISE_API_KEY = os.getenv("GREYNOISE_API_KEY")
 ABUSECH_AUTH_KEY = os.getenv("ABUSECH_AUTH_KEY")
 
 DB_URL = (
-    f"postgresql://{os.getenv('DB_USER', 'postgres')}:{os.getenv('DB_PASSWORD', '')}"
+    f"postgresql+psycopg://{os.getenv('DB_USER', 'postgres')}:{os.getenv('DB_PASSWORD', '')}"
     f"@{os.getenv('DB_HOST', 'localhost')}:{os.getenv('DB_PORT', '5432')}"
     f"/{os.getenv('DB_NAME', 'osint_nids')}"
 )
